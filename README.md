@@ -2,7 +2,7 @@
 
 A Knowledge-based System for Predictive Maintenance in Industry 4.0 (KSPMI). The work is funded by the European Interreg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
 
-## Getting Started
+## Getting started
 
 To run this software, the following steps should be followed:
 
@@ -26,7 +26,7 @@ The following APIs and libraries should be installed before running the software
 
 Some input data sets are in the "data" folder under the project root dictionary. They can be passed to the command line arguments for running the software. For example, to run on the SECOM data set with support value of 0.853653: -p -if D:\XX\XX\XX\KSPMI-master\data\SECOM.csv -of D:\XX\XX\XX\KSPMI-master\result.txt -m 0.853653
 
-## Built With
+## Built with
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Protégé](https://protege.stanford.edu/) - Ontology editor and framework for building intelligent systems
@@ -35,7 +35,7 @@ Some input data sets are in the "data" folder under the project root dictionary.
 * [SPMF](https://www.philippe-fournier-viger.com/spmf/index.php?link=download.php) - A Java Open-Source Data Mining Library.
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/) - An open source machine learning software.
 
-## Authors
+## Author
 
 * **Qiushi Cao** - *Ph.D. student at INSA Rouen Normandie* 
 * Email: qiushi.cao09@gmail.com
