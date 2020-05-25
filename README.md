@@ -38,12 +38,9 @@ Some input data sets are in the "data" folder under the project root dictionary.
 ## Authors
 
 * **Qiushi Cao** - *Ph.D. student at INSA Rouen Normandie* 
+* Email: qiushi.cao09@gmail.com
 
 ## Acknowledgments
-
-
-
-
-Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI), the work is funded by the European Interrg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
-
-Author: Qiushi Cao (qiushi.cao09@gmail.com).
+This work has received funding from INTERREG Upper Rhine (European Regional Development Fund) and the
+Ministries for Research of Baden-Wrttemberg, Rheinland-Pfalz (Germany) and from the Grand Est French Region
+in the framework of the Science Offensive Upper Rhine HALFBACK project.
