@@ -29,7 +29,7 @@ Some input data sets are in the "data" folder under the project root dictionary.
 ## Built with
 
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Protégé](https://protege.stanford.edu/) - Ontology editor and framework for building intelligent systems
+* [Protégé](https://protege.stanford.edu/) - An ontology editor and framework for building intelligent systems
 * [The OWL API](http://owlapi.sourceforge.net/) - An API for OWL 2 and an efficient in-memory reference implementation.
 * [The SWRL API](https://github.com/protegeproject/swrlapi) - A Java API for working with the OWL-based SWRL rule and SQWRL query languages.
 * [The SQWRL API](https://github.com/protegeproject/swrlapi/wiki/SQWRL) - A SWRL-based query language providing SQL-like operators for extracting information from OWL ontologies.
