@@ -40,6 +40,8 @@ Some input data sets are in the "data" folder under the project root dictionary.
 * **Qiushi Cao** - *Ph.D. student at INSA Rouen Normandie* 
 * Email: qiushi.cao09@gmail.com
 
+## License
+
 ## Acknowledgments
 This work has received funding from INTERREG Upper Rhine (European Regional Development Fund) and the
 Ministries for Research of Baden-Wrttemberg, Rheinland-Pfalz (Germany) and from the Grand Est French Region
