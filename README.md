@@ -1,0 +1,1 @@
+Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI)

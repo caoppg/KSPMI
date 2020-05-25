@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1580886407837" name="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/" uri="Spatial%20relation%20ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1580886407837" name="http://www.opengis.net/ont/geosparql" uri="geosparql.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1580886407837" name="http://www.opengis.net/ont/gml" uri="gml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1580886407837" name="http://www.opengis.net/ont/sf" uri="sf.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1580886407837" name="http://www.semanticweb.org/cao/ontologies/2018/5/untitled-ontology-159" uri="MFPO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1580886407837" name="http://www.w3.org/2004/02/skos/core" uri="skos.owl"/>
+    </group>
+</catalog>

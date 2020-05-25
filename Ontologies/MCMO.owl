@@ -1,0 +1,2658 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cao/ontologies/2018/5/MCMO"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/cao/ontologies/2018/5/MCMO">
+    <Prefix name="" IRI="http://www.semanticweb.org/cao/ontologies/2018/5/MPMO#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="temporal" IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>MCMO is a domain ontology which is a designed to model the knowledge related to condition-based maintenance. The MCMO ontology provides the foundation to formally represent chronicles with their numerical time constraints, for the purpose of predictive maintenance.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#ActiveFault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdhesiveJoining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aluminum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssemblyProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bearing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brazing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bronze"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Copper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deburring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DieCasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DormantFault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drawing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DriveSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Factory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinantialResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinishingProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormingProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lapping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineryPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachiningProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MalleableIron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufacturingFacility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufacturingProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManufacturingResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalFastening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MouldingProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservableProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RawMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RealizedPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riveting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RotatingMachinery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semi-conductorManufacturingProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shaping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soldering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spindle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stamping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeInstant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WarningSignal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Welding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Workpiece"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Activates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BelongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ExistsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Follows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Indicates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Induces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MakesUseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Observes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ParticipantsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PerformsUpon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PropagatesInto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PropogatesInto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Shapes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TransformsInto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Triggers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBearingState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapabilityFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMachineParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMachineState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMachineToolState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaterialSpecification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMoldState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasObservableProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPartState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProceedingEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessInput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessOutput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTimeInstantInside"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInsideOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLearnedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObservedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="temporal:hasTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ModifiedGeometry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ModifiesProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RemovesMaterial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA102V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA204V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA209V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA347V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA476V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA58V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA63V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasA64V"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAlertState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDangerousState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEventIndex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFailureDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFailureMode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFailureSeverity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFinantialResourceDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFunctionSpecification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasItem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLowerBound"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaxF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMinF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMinorError"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNormalState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumericDuration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPartFamily"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPartVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProbabilityOfOccurrence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSeverityLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSpatialDimension"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStateSpecification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStructureSpecificatoin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSupport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTemporalUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasToolCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUpperBound"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inXSDDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isObservedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="temporal:Days"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="temporal:Hours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="temporal:Milliseconds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="temporal:Minutes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="temporal:Months"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="temporal:Seconds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="temporal:Years"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aluminum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BearingState_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BearingState_1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BearingState_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BearingState_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BearingState_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bearing_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bearing_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bearing_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bearing_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chronicle_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CrestFactor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CrestFactor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CrestFactor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CrestFactor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CutterState_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CutterState_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cutter_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cutter_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlankWear_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlankWear_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kurtosis_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kurtosis_1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kurtosis_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kurtosis_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kurtosis_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miling_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miling_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RMS_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RMS_1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RMS_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RMS_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RMS_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TimeInterval_12"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Error"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PropagatesInto"/>
+            <Class IRI="#Failure"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Failure"/>
+        <ObjectIntersectionOf>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasFailureDescription"/>
+                <Datatype abbreviatedIRI="xsd:string"/>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasFailureSeverity"/>
+                <Datatype abbreviatedIRI="xsd:string"/>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasProbabilityOfOccurrence"/>
+                <Datatype abbreviatedIRI="xsd:float"/>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fault"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ExistsIn"/>
+            <Class IRI="#ManufacturingResource"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Location"/>
+        <ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <Class IRI="#ManufacturingProcess"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectInverseOf>
+                        <ObjectProperty IRI="#hasLocation"/>
+                    </ObjectInverseOf>
+                    <Class IRI="#ManufacturingFacility"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectInverseOf>
+                        <ObjectProperty IRI="#hasLocation"/>
+                    </ObjectInverseOf>
+                    <Class IRI="#ManufacturingResource"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasSpatialDimension"/>
+                <Datatype abbreviatedIRI="xsd:float"/>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ManufacturingFacility"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCapabilityFor"/>
+                <Class IRI="#ManufacturingProcess"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasLocation"/>
+                <Class IRI="#Location"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ManufacturingProcess"/>
+        <ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#ModifiedGeometry"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#ModifiesProperty"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#RemovesMaterial"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#MakesUseOf"/>
+                <Class IRI="#ManufacturingResource"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#Produces"/>
+                <Class IRI="#RealizedPart"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasLocation"/>
+                <Class IRI="#Location"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasProcessInput"/>
+                <Class IRI="#Workpiece"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasProcessOutput"/>
+                <Class IRI="#RealizedPart"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isInsideOf"/>
+                <Class IRI="#ManufacturingFacility"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ManufacturingResource"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isUsedBy"/>
+                <Class IRI="#ManufacturingProcess"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectInverseOf>
+                    <ObjectProperty IRI="#ExistsIn"/>
+                </ObjectInverseOf>
+                <Class IRI="#Fault"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectInverseOf>
+                    <ObjectProperty IRI="#MakesUseOf"/>
+                </ObjectInverseOf>
+                <Class IRI="#ManufacturingProcess"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasLocation"/>
+                <Class IRI="#Location"/>
+            </ObjectAllValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasFunctionSpecification"/>
+                <Datatype abbreviatedIRI="xsd:string"/>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasStructureSpecificatoin"/>
+                <Datatype abbreviatedIRI="xsd:string"/>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ObservableProperty"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isObservedBy"/>
+                <Class IRI="#Sensor"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasValue"/>
+                <Datatype abbreviatedIRI="xsd:float"/>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RealizedPart"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isProducedBy"/>
+            <Class IRI="#ManufacturingProcess"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TimeInstant"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#inXSDDate"/>
+            <Datatype abbreviatedIRI="xsd:date"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WarningSignal"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Triggers"/>
+            </ObjectInverseOf>
+            <Class IRI="#Error"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ActiveFault"/>
+        <Class IRI="#Fault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveFault"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Activates"/>
+            <Class IRI="#Error"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdhesiveJoining"/>
+        <Class IRI="#AssemblyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aluminum"/>
+        <Class IRI="#Workpiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssemblyProcess"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bearing"/>
+        <Class IRI="#MachineryPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blasting"/>
+        <Class IRI="#FinishingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brass"/>
+        <Class IRI="#Workpiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brazing"/>
+        <Class IRI="#AssemblyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bronze"/>
+        <Class IRI="#Workpiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Shop"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#isPartOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Station"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaning"/>
+        <Class IRI="#FinishingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Copper"/>
+        <Class IRI="#Workpiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutter"/>
+        <Class IRI="#MachineTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#MakesUseOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Milling"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutting"/>
+        <Class IRI="#MachiningProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deburring"/>
+        <Class IRI="#FinishingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DieCasting"/>
+        <Class IRI="#MouldingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DormantFault"/>
+        <Class IRI="#Fault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drawing"/>
+        <Class IRI="#FormingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drilling"/>
+        <Class IRI="#MachiningProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DriveSystem"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DriveSystem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Induces"/>
+            <ObjectUnionOf>
+                <Class IRI="#Machine"/>
+                <Class IRI="#MachineTool"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprise"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enterprise"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#isPartOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Factory"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Factory"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Factory"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Enterprise"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Factory"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#isPartOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Shop"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinantialResource"/>
+        <Class IRI="#ManufacturingResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinantialResource"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasFinantialResourceDescription"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinishingProcess"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forging"/>
+        <Class IRI="#FormingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormingProcess"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gear"/>
+        <Class IRI="#MachineryPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanResource"/>
+        <Class IRI="#ManufacturingResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanResource"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#ParticipantsIn"/>
+            <Class IRI="#ManufacturingProcess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lapping"/>
+        <Class IRI="#FinishingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#BelongsTo"/>
+            </ObjectInverseOf>
+            <Class IRI="#MachineTool"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineTool"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineTool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#BelongsTo"/>
+            <Class IRI="#Machine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineTool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTable"/>
+            <Class IRI="#Table"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineryPart"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachiningProcess"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MalleableIron"/>
+        <Class IRI="#Workpiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalFastening"/>
+        <Class IRI="#AssemblyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milling"/>
+        <Class IRI="#MachiningProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mold"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MouldingProcess"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nail"/>
+        <Class IRI="#MachineryPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalResource"/>
+        <Class IRI="#ManufacturingResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalResource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isInsideOf"/>
+            <Class IRI="#ManufacturingFacility"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalResource"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasProcessInput"/>
+            </ObjectInverseOf>
+            <Class IRI="#ManufacturingProcess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punching"/>
+        <Class IRI="#FormingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawMaterial"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawMaterial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TransformsInto"/>
+            <Class IRI="#RealizedPart"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawMaterial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasMaterialSpecification"/>
+            </ObjectInverseOf>
+            <Class IRI="#RealizedPart"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riveting"/>
+        <Class IRI="#AssemblyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotatingMachinery"/>
+        <Class IRI="#MachineryPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roter"/>
+        <Class IRI="#MachineryPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seal"/>
+        <Class IRI="#MachineryPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semi-conductorManufacturingProcess"/>
+        <Class IRI="#MachiningProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shaping"/>
+        <Class IRI="#MachiningProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Factory"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#isPartOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Cell"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soldering"/>
+        <Class IRI="#AssemblyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spindle"/>
+        <Class IRI="#MachineTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spindle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#MakesUseOf"/>
+            </ObjectInverseOf>
+            <Class IRI="#Milling"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stamping"/>
+        <Class IRI="#FormingProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Cell"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasTable"/>
+            </ObjectInverseOf>
+            <Class IRI="#MachineTool"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInstant"/>
+        <Class IRI="#TimeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInterval"/>
+        <Class IRI="#TimeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turning"/>
+        <Class IRI="#MachiningProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Welding"/>
+        <Class IRI="#AssemblyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workpiece"/>
+        <Class IRI="#PhysicalResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workpiece"/>
+        <ObjectUnionOf>
+            <Class IRI="#RawMaterial"/>
+            <Class IRI="#RealizedPart"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workpiece"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasProcessInput"/>
+            </ObjectInverseOf>
+            <Class IRI="#ManufacturingProcess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ActiveFault"/>
+        <Class IRI="#DormantFault"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Error"/>
+        <Class IRI="#Fault"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Aluminum"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bearing"/>
+        <NamedIndividual IRI="#Bearing_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bearing"/>
+        <NamedIndividual IRI="#Bearing_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bearing"/>
+        <NamedIndividual IRI="#Bearing_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bearing"/>
+        <NamedIndividual IRI="#Bearing_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronicle"/>
+        <NamedIndividual IRI="#Chronicle_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="#Cutter_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="#Cutter_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Milling"/>
+        <NamedIndividual IRI="#Miling_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Milling"/>
+        <NamedIndividual IRI="#Miling_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ManufacturingProcess"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semi-conductorManufacturingProcess"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ManufacturingProcess"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeInterval"/>
+        <NamedIndividual IRI="#TimeInterval_12"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_1"/>
+        <NamedIndividual IRI="#CrestFactor_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_1"/>
+        <NamedIndividual IRI="#Kurtosis_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_1"/>
+        <NamedIndividual IRI="#RMS_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_1.1"/>
+        <NamedIndividual IRI="#Kurtosis_1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_1.1"/>
+        <NamedIndividual IRI="#RMS_1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_2"/>
+        <NamedIndividual IRI="#CrestFactor_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_2"/>
+        <NamedIndividual IRI="#Kurtosis_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_2"/>
+        <NamedIndividual IRI="#RMS_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_3"/>
+        <NamedIndividual IRI="#CrestFactor_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_3"/>
+        <NamedIndividual IRI="#Kurtosis_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_3"/>
+        <NamedIndividual IRI="#RMS_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_4"/>
+        <NamedIndividual IRI="#CrestFactor_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_4"/>
+        <NamedIndividual IRI="#Kurtosis_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <NamedIndividual IRI="#BearingState_4"/>
+        <NamedIndividual IRI="#RMS_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingState"/>
+        <NamedIndividual IRI="#Bearing_1"/>
+        <NamedIndividual IRI="#BearingState_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingState"/>
+        <NamedIndividual IRI="#Bearing_1"/>
+        <NamedIndividual IRI="#BearingState_1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingState"/>
+        <NamedIndividual IRI="#Bearing_2"/>
+        <NamedIndividual IRI="#BearingState_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingState"/>
+        <NamedIndividual IRI="#Bearing_3"/>
+        <NamedIndividual IRI="#BearingState_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBearingState"/>
+        <NamedIndividual IRI="#Bearing_4"/>
+        <NamedIndividual IRI="#BearingState_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Chronicle_1"/>
+        <NamedIndividual IRI="#Event_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Chronicle_1"/>
+        <NamedIndividual IRI="#Event_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLearnedFrom"/>
+        <NamedIndividual IRI="#Chronicle_1"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMachineToolState"/>
+        <NamedIndividual IRI="#Cutter_1"/>
+        <NamedIndividual IRI="#CutterState_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMachineToolState"/>
+        <NamedIndividual IRI="#Cutter_2"/>
+        <NamedIndividual IRI="#CutterState_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MakesUseOf"/>
+        <NamedIndividual IRI="#Miling_1"/>
+        <NamedIndividual IRI="#Cutter_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProcessInput"/>
+        <NamedIndividual IRI="#Miling_1"/>
+        <NamedIndividual IRI="#Aluminum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MakesUseOf"/>
+        <NamedIndividual IRI="#Miling_2"/>
+        <NamedIndividual IRI="#Cutter_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_1"/>
+        <NamedIndividual IRI="#Event_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+        <NamedIndividual IRI="#Event_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+        <NamedIndividual IRI="#Event_10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+        <NamedIndividual IRI="#Event_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+        <NamedIndividual IRI="#Event_6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+        <NamedIndividual IRI="#Event_7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+        <NamedIndividual IRI="#Event_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEvent"/>
+        <NamedIndividual IRI="#Semi-conductorManufacturingProcess_2"/>
+        <NamedIndividual IRI="#Event_9"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="temporal:hasTime"/>
+        <NamedIndividual IRI="#BearingState_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="temporal:hasTime"/>
+        <NamedIndividual IRI="#BearingState_1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasItem"/>
+        <NamedIndividual IRI="#Event_9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Observes"/>
+        <ObjectProperty IRI="#isObservedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Activates"/>
+        <Class IRI="#ActiveFault"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <Class IRI="#MachineTool"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ExistsIn"/>
+        <Class IRI="#Fault"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Follows"/>
+        <Class IRI="#PhysicalResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Indicates"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Induces"/>
+        <Class IRI="#DriveSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MakesUseOf"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Observes"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParticipantsIn"/>
+        <Class IRI="#HumanResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PerformsUpon"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Produces"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PropagatesInto"/>
+        <Class IRI="#Error"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PropogatesInto"/>
+        <Class IRI="#Error"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Shapes"/>
+        <Class IRI="#Mold"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TransformsInto"/>
+        <Class IRI="#RawMaterial"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Triggers"/>
+        <Class IRI="#Error"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <Class IRI="#Bearing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBearingState"/>
+        <Class IRI="#Bearing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapabilityFor"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDuration"/>
+        <Class IRI="#TimeEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Chronicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectUnionOf>
+            <Class IRI="#ManufacturingFacility"/>
+            <Class IRI="#ManufacturingResource"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMachineParameter"/>
+        <Class IRI="#Machine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMachineState"/>
+        <Class IRI="#Machine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMachineToolState"/>
+        <Class IRI="#MachineTool"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaterialSpecification"/>
+        <Class IRI="#RealizedPart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMoldState"/>
+        <Class IRI="#Mold"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasObservableProperty"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPartState"/>
+        <Class IRI="#RealizedPart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProEvent"/>
+        <Class IRI="#TimeInterval"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProceedingEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcessInput"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcessOutput"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcessState"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#ManufacturingResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubEvent"/>
+        <Class IRI="#TimeInterval"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTable"/>
+        <Class IRI="#MachineTool"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTime"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTimeInstantInside"/>
+        <Class IRI="#TimeInterval"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInsideOf"/>
+        <Class IRI="#PhysicalResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLearnedFrom"/>
+        <Class IRI="#Chronicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObservedBy"/>
+        <Class IRI="#ObservableProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <Class IRI="#RealizedPart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <Class IRI="#ManufacturingResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Activates"/>
+        <Class IRI="#Error"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#BelongsTo"/>
+        <Class IRI="#Machine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ExistsIn"/>
+        <Class IRI="#ManufacturingResource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Follows"/>
+        <Class IRI="#PhysicalResource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Indicates"/>
+        <Class IRI="#Failure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Induces"/>
+        <ObjectUnionOf>
+            <Class IRI="#Machine"/>
+            <Class IRI="#MachineTool"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#MakesUseOf"/>
+        <Class IRI="#ManufacturingResource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Observes"/>
+        <Class IRI="#ObservableProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParticipantsIn"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PerformsUpon"/>
+        <Class IRI="#Workpiece"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Produces"/>
+        <Class IRI="#RealizedPart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PropagatesInto"/>
+        <Class IRI="#Failure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PropogatesInto"/>
+        <Class IRI="#Failure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Shapes"/>
+        <Class IRI="#RawMaterial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TransformsInto"/>
+        <Class IRI="#RealizedPart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Triggers"/>
+        <Class IRI="#WarningSignal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBearingParameter"/>
+        <Class IRI="#ObservableProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBearingState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapabilityFor"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMachineParameter"/>
+        <Class IRI="#ObservableProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMachineState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMachineToolState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMaterialSpecification"/>
+        <Class IRI="#RawMaterial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMoldState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasObservableProperty"/>
+        <Class IRI="#ObservableProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPartState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProceedingEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcessInput"/>
+        <Class IRI="#Workpiece"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcessOutput"/>
+        <Class IRI="#RealizedPart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcessState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTable"/>
+        <Class IRI="#Table"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTime"/>
+        <Class IRI="#TimeInstant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTimeInstantInside"/>
+        <Class IRI="#TimeInstant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInsideOf"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLearnedFrom"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObservedBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#ManufacturingFacility"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="temporal:hasTime"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ModifiedGeometry"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ModifiesProperty"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#RemovesMaterial"/>
+        <Class IRI="#ManufacturingProcess"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA102V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA204V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA209V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA347V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA476V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA58V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA63V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasA64V"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAlertState"/>
+        <Class IRI="#PhysicalResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDangerousState"/>
+        <Class IRI="#PhysicalResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEventIndex"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFailureDescription"/>
+        <Class IRI="#Failure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFailureMode"/>
+        <Class IRI="#Failure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFailureSeverity"/>
+        <Class IRI="#Failure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFinantialResourceDescription"/>
+        <Class IRI="#FinantialResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFunctionSpecification"/>
+        <Class IRI="#ManufacturingResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLowerBound"/>
+        <Class IRI="#TimeInterval"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMaxF"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMinF"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMinorError"/>
+        <Class IRI="#PhysicalResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNormalState"/>
+        <Class IRI="#PhysicalResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumericDuration"/>
+        <Class IRI="#TimeInterval"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPartFamily"/>
+        <Class IRI="#RealizedPart"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPartVersion"/>
+        <Class IRI="#RealizedPart"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasProbabilityOfOccurrence"/>
+        <Class IRI="#Failure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSeverityLevel"/>
+        <Class IRI="#Failure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSpatialDimension"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasStateSpecification"/>
+        <Class IRI="#State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasStructureSpecificatoin"/>
+        <Class IRI="#ManufacturingResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSupport"/>
+        <Class IRI="#Chronicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTemporalUnit"/>
+        <Class IRI="#TimeEntity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasToolCondition"/>
+        <Class IRI="#MachineTool"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUpperBound"/>
+        <Class IRI="#TimeInterval"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasValue"/>
+        <Class IRI="#ObservableProperty"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inXSDDate"/>
+        <Class IRI="#TimeInstant"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="temporal:hasTime"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ModifiedGeometry"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ModifiesProperty"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#RemovesMaterial"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA102V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA204V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA209V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA347V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA476V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA58V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA63V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasA64V"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAlertState"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDangerousState"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDuration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEventIndex"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFailureDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFailureMode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFailureSeverity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFinantialResourceDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFunctionSpecification"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasItem"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLowerBound"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMaxF"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMinF"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMinorError"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNormalState"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumericDuration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPartFamily"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPartVersion"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasProbabilityOfOccurrence"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSeverityLevel"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSpatialDimension"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasStateSpecification"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasStructureSpecificatoin"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSupport"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTemporalUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasToolCondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUpperBound"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inXSDDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Query for failure prediction</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ManufacturingProcess"/>
+                <Variable abbreviatedIRI=":mp"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEvent"/>
+                <Variable abbreviatedIRI=":mp"/>
+                <Variable abbreviatedIRI=":e"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMinF"/>
+                <Variable abbreviatedIRI=":e"/>
+                <Variable abbreviatedIRI=":nf"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasMaxF"/>
+                <Variable abbreviatedIRI=":e"/>
+                <Variable abbreviatedIRI=":xf"/>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable abbreviatedIRI=":mp"/>
+                <Variable abbreviatedIRI=":e"/>
+                <Variable abbreviatedIRI=":nf"/>
+                <Variable abbreviatedIRI=":xf"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#columnNames">
+                <Literal>ManufacturingProcess</Literal>
+                <Literal>Event</Literal>
+                <Literal>Minimum Time to Failure</Literal>
+                <Literal>Maximum Time to Failure</Literal>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActiveFault</IRI>
+        <Literal>A fault is active when it produces an error; otherwise, it is dormant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Error</IRI>
+        <Literal>An error is the part of the total state of the system that may lead to its subsequent
+service failure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Failure</IRI>
+        <Literal>Failure, is an event that occurs when the delivered service deviates from correct service. The period of delivery of incorrect service is a service outage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fault</IRI>
+        <Literal>Fault is the inability to perform, one required function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ManufacturingProcess</IRI>
+        <Literal>Structured set of operations performed upon material to convert it from the raw material or a semifinished state to a state of further completion. This is a conceptual entity, and is instantiated by operations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WarningSignal</IRI>
+        <Literal>Audible or visual signal alerting a condition requiring immediate attention or user action. Such as alarms and alerts.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

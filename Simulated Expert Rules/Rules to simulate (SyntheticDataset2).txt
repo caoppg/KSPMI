@@ -1,0 +1,23 @@
+Expert rule 1:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,1)-> hasMinF(?e1, 1)^hasMaxF(?e1, 30)
+
+Expert rule 2:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,10)-> hasMinF(?e1, 1)^hasMaxF(?e1, 30)
+
+Expert rule 3:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,15)-> hasMinF(?e1, 1)^hasMaxF(?e1, 31)
+
+Expert rule 4:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,15)-> hasMinF(?e1, 4)^hasMaxF(?e1, 55)
+
+Expert rule 5:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,15)-> hasMinF(?e1, 5)^hasMaxF(?e1, 23)
+
+Expert rule 6:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,10)-> hasMinF(?e1, 1)^hasMaxF(?e1, 31)
+
+Expert rule 7:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,12)-> hasMinF(?e1, 6)^hasMaxF(?e1, 12)
+
+Expert rule 8:
+ManufacturingProcess(?s) ^ hasEvent(?s, ?e1)  ^ hasItem(?e1,12)-> hasMinF(?e1, 8)^hasMaxF(?e1, 39)
