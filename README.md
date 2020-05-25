@@ -4,7 +4,7 @@ A Knowledge-based System for Predictive Maintenance in Industry 4.0 (KSPMI). The
 
 ## Getting Started
 
-To run this software, you can do the following steps:
+To run this software, the following steps should be followed:
 
 * Download the project as a zip file.
 * Unzip the file.
