@@ -1,6 +1,6 @@
 # KSPMI
 
-A Knowledge-based System for Predictive Maintenance in Industry 4.0 (KSPMI), the work is funded by the European Interreg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
+A Knowledge-based System for Predictive Maintenance in Industry 4.0 (KSPMI). The work is funded by the European Interreg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
 
 ## Getting Started
 
