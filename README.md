@@ -14,13 +14,13 @@ To run this software, the following steps should be followed:
 
 ### Prerequisites
 
-The following APIs should be installed before running the software:
+The following APIs and libraries should be installed before running the software:
 
 * [The OWL API](http://owlapi.sourceforge.net/) - Creating, manipulating and serialising OWL Ontologies.
 
 * [The SWRL API](https://github.com/protegeproject/swrlapi) - Working with the OWL-based SWRL rule and SQWRL query languages.
 
-* [SPMF:Source code version](https://www.philippe-fournier-viger.com/spmf/index.php?link=download.php) - Running sequential pattern mining algorithms from source code.
+* [SPMF: Source code version](https://www.philippe-fournier-viger.com/spmf/index.php?link=download.php) - Running sequential pattern mining algorithms from source code.
 
 ## Running the tests
 
