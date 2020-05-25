@@ -1,6 +1,6 @@
 # KSPMI
 
-A Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI), the work is funded by the European Interrg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
+A Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI), the work is funded by the European Interreg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
 
 ## Getting Started
 
@@ -16,62 +16,24 @@ To run this software, you can do the following steps:
 
 The following APIs should be installed before running the software:
 
-```
-The OWL API
-```
+* [The OWL API](http://owlapi.sourceforge.net/) - Creating, manipulating and serialising OWL Ontologies.
 
-```
-The SWRL API
-```
+* [The SWRL API](https://github.com/protegeproject/swrlapi) - Working with the OWL-based SWRL rule and SQWRL query languages.
 
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+* [SPMF:Source code version](https://www.philippe-fournier-viger.com/spmf/index.php?link=download.php) - Running sequential pattern mining algorithms from source code.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Some input data sets are in the "data" folder under the project root dictionary. They can be passed to the command line arguments for running the software. For example, to run on the SECOM data set: -p -if D:\XX\XX\XX\KSPMI-master\data\SECOM.csv -of D:\XX\XX\XX\KSPMI-master\result.txt -m 0.853653
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Protégé](https://protege.stanford.edu/) - Ontology editor and framework for building intelligent systems
+* [The OWL API](http://owlapi.sourceforge.net/) - An API for OWL 2 and an efficient in-memory reference implementation.
+* [The SWRL API](https://github.com/protegeproject/swrlapi) - A Java API for working with the OWL-based SWRL rule and SQWRL query languages.
+* [SPMF](https://www.philippe-fournier-viger.com/spmf/index.php?link=download.php) - A Java Open-Source Data Mining Library.
+* [Weka](https://www.cs.waikato.ac.nz/ml/weka/) - An open source machine learning software.
 
 ## Contributing
 
