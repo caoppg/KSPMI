@@ -8,11 +8,9 @@ To run this software, you can do the following steps:
 
 * Download the project as a zip file.
 * Unzip the file.
-* Import the unzipped folder as a maven project, into a JAVA integrated development environment (IDE), such as Eclipse, NetBeans, IntelliJ IDEA, or BlueJ.
-* Navigate to the SoftwareAPP class under the halfback.prototype package
-* Run with command line arguments. The arguments should follow a format such as: -p -if D:\XX\XX\XX\KSPMI-master\data\dataset -of D:\XX\XX\XX\KSPMI-master\result.txt -m 0.8. 
-
-In the arguments, local dictionary after "-if" indicates the path of input dataset, and the path after "-of" should be the local dictionary of the project. The last float number "0.8" gives a pre-defined support value for the chronicle mining algorithm. 
+* Import the unzipped folder as a maven project, into a Java integrated development environment (IDE), such as Eclipse, NetBeans, IntelliJ IDEA, or BlueJ.
+* Navigate to the "SoftwareAPP" class under the "halfback.prototype" package
+* Run with command line arguments. The arguments should follow a format such as: -p -if D:\XX\XX\XX\KSPMI-master\data\dataset -of D:\XX\XX\XX\KSPMI-master\result.txt -m 0.8. In the arguments, local dictionary after "-if" indicates the path of the input dataset, and the path after "-of" should be the local dictionary of the project. The last float number "0.8" gives a pre-defined support value for the chronicle mining algorithm. The support value is recommended to be setted above 0.7, to avoid the OutOfMemoryError exception in Java.
 
 ### Prerequisites
 
