@@ -1,6 +1,6 @@
-# Project Title
+# KSPMI
 
-One Paragraph of project description goes here
+Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI), the work is funded by the European Interrg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
 
 ## Getting Started
 
@@ -85,7 +85,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-+#KSPMI
+
+
 Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI), the work is funded by the European Interrg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
 
 Author: Qiushi Cao (qiushi.cao09@gmail.com).
