@@ -20,7 +20,7 @@ The following APIs and libraries should be installed before running the software
 
 * [The SWRL API](https://github.com/protegeproject/swrlapi) - Working with the OWL-based SWRL rule and SQWRL query languages.
 
-* [SPMF: Source code version](https://github.com/jacksonpradolima/SPMF) - Running sequential pattern mining algorithms from source code.
+* [The SQWRL API](https://github.com/protegeproject/swrlapi/wiki/SQWRL) - A SWRL-based query language providing SQL-like operators for extracting information from OWL ontologies.
 
 ## Running the tests
 
