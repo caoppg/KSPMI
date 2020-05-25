@@ -34,6 +34,7 @@ Some input data sets are in the "data" folder under the project root dictionary.
 * [The SWRL API](https://github.com/protegeproject/swrlapi) - A Java API for working with the OWL-based SWRL rule and SQWRL query languages.
 * [SPMF](https://www.philippe-fournier-viger.com/spmf/index.php?link=download.php) - A Java Open-Source Data Mining Library.
 * [Weka](https://www.cs.waikato.ac.nz/ml/weka/) - An open source machine learning software.
+* [The SQWRL API](https://github.com/protegeproject/swrlapi/wiki/SQWRL) - A SWRL-based query language providing SQL-like operators for extracting information from OWL ontologies.
 
 ## Author
 
