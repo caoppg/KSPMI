@@ -1,10 +1,12 @@
 # KSPMI
 
-Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI), the work is funded by the European Interrg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
+A Knowledge-based System for PredictiveMaintenance in Industry 4.0 (KSPMI), the work is funded by the European Interrg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To run this software, you can do the following steps:
++
++* Download the project as a zip file.
 
 ### Prerequisites
 
