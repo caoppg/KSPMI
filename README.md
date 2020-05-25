@@ -14,11 +14,14 @@ To run this software, you can do the following steps:
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The following APIs should be installed before running the software:
 
 ```
-Give examples
+The OWL API
 ```
+
+```
+
 
 ### Installing
 
