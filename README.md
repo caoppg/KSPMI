@@ -16,6 +16,8 @@ To run this software, the following steps should be followed:
 
 The following APIs and libraries should be installed before running the software:
 
+* [Java WindowBuilder Pro](https://www.eclipse.org/windowbuilder/download.php) - Developing and building Java graphical user interfaces.
+
 * [The OWL API](http://owlapi.sourceforge.net/) - Creating, manipulating and serialising OWL Ontologies.
 
 * [The SWRL API](https://github.com/protegeproject/swrlapi) - Working with the OWL-based SWRL rule and SQWRL query languages.
