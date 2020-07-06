@@ -48,5 +48,5 @@ This project is licensed under the MIT License - see the [License.md](License) f
 
 ## Acknowledgments
 This work has received funding from INTERREG Upper Rhine (European Regional Development Fund) and the
-Ministries for Research of Baden-Wrttemberg, Rheinland-Pfalz (Germany) and from the Grand Est French Region
+Ministries for Research of Baden-Württemberg, Rheinland-Pfalz (Germany) and from the Grand Est French Region
 in the framework of the Science Offensive Upper Rhine HALFBACK project.
