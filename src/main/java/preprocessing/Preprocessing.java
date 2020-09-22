@@ -1,5 +1,9 @@
 package preprocessing;
 
+/**
+ * Data preprocessing
+ */
+
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
