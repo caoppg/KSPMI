@@ -21,6 +21,12 @@ import halfback.prototype.cmpm.model.ChronicleWriter;
 import halfback.prototype.cmpm.model.tce.PatternTracePair;
 import halfback.prototype.cmpm.model.tce.TimeConstraintExtractor;
 
+/**
+ * Main class to run the algorithm. It is based on the sample main class provided by the SPMF library to run
+ * CM-ClaSP.
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ */
 public class ChronicleMiningAlgo {
 
     /**

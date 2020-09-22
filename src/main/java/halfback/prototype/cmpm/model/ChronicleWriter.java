@@ -11,6 +11,12 @@ import java.io.IOException;
 import java.io.File;
 import java.io.FileWriter;
 
+/**
+ * An implementation of a Chronicle Writer. <br>
+ * The Chronicle Writer thread takes chronicles from a pool (built by Chronicle Builder threads) and writes them to a file.
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ */
 public class ChronicleWriter implements Runnable {
 
     private final BlockingQueue<Chronicle> _chroniclePool;

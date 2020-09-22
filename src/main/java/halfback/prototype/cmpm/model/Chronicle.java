@@ -30,6 +30,19 @@ import halfback.prototype.cmpm.model.tce.PatternTracePair;
 import halfback.prototype.cmpm.model.tce.TimeConstraint;
 import halfback.prototype.cmpm.model.tce.TimeConstraintSet;
 
+/**
+ * Implementation of a chronicle. <br>
+ * A chronicle is a structure used to illustrate sequential ordering through time constraints.
+ * A chronicle is composed of two sets : its episode and its trace.
+ * The episode corresponds to the event types one can find in the chronicle.
+ * For event types, see {@link ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.Itemset}.
+ * The trace corresponds to the set of time constraints between each couple of events.
+ * 
+ * @see halfback.prototype.cmpm.model.tce.TimeConstraintSet
+ * @see halfback.prototype.cmpm.model.tce.TimeConstraint
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ */
 
 public class Chronicle {
 

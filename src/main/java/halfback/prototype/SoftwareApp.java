@@ -1,11 +1,5 @@
 package halfback.prototype;
 
-/**
- * The HALFBACK Prototype.
- * 
- * @author <qiushi.cao@insa-rouen.fr">Qiushi Cao</a>
- */
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Set;

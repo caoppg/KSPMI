@@ -9,7 +9,15 @@ import ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.Sequen
 import halfback.prototype.cmpm.model.ssl.ItemsetNode;
 import halfback.prototype.cmpm.model.ssl.LinkedListItemset;
 
-
+/**
+ * Implementation of a subsequence lattice, a data structure allowing to find all occurrences of
+ * a subsequence within a sequence. <br>
+ * It consists of a two dimensional linked list. Each layer represents an element of the subsequence,
+ * and each element of each layer, an appearance of that element within the sequence.
+ * This implementation supposes the subsequence actually occurs within the sequence, at least once.
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ */
 public class SubsequenceLattice implements Iterable<LinkedListItemset> {
 
     /**

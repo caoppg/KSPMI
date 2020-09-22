@@ -8,7 +8,12 @@ import halfback.prototype.cmpm.model.tce.TimeConstraint;
 
 import java.util.Collection;
 
-
+/**
+ * Implementation of a set of time constraints. <br>
+ * The set corresponds to a multiset of time constraints between each couple of events.
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ */
 public class TimeConstraintSet {
 
     /**
