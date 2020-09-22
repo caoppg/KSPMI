@@ -2,12 +2,7 @@ package halfback.prototype.cmpm.model.ssl;
 
 import halfback.prototype.cmpm.model.ssl.ItemsetNode;
 
-/**
- * Implementation of a linked list of ItemsetNodes. It stores a link to the beginning of the list
- * to allow iteration and a link to the end of the list to allow appending.
- * 
- * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
- */
+
 public class LinkedListItemset {
 
     /**

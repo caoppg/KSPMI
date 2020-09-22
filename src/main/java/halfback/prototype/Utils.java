@@ -1,10 +1,5 @@
 package halfback.prototype;
 
-/**
- * Utilities class.
- * 
- * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
- */
 
 public class Utils {
 

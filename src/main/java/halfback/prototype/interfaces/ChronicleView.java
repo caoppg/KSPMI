@@ -29,6 +29,8 @@ import halfback.prototype.cmpm.model.tce.TimeConstraint;
  * Visualization of a chronicle as a graph using JGraphX.
  * 
  * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ * 
+ * @author <a href="qiushi.cao@insa-rouen.fr">Qiushi Cao</a>
  */
 public class ChronicleView extends JInternalFrame {
 

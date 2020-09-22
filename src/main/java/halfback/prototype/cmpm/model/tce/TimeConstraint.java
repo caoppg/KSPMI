@@ -2,12 +2,7 @@ package halfback.prototype.cmpm.model.tce;
 
 import ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.Itemset;
 
-/**
- * Implementation of a time constraint. <br>
- * A time constraint is a quadruplet made up of two event types and timestamps for each one.
- * 
- * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
- */
+
 public class TimeConstraint {
 
     /**

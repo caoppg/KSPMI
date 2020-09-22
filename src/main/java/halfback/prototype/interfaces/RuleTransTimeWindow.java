@@ -41,7 +41,7 @@ public class RuleTransTimeWindow extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		Button button = new Button("OK");
+		Button button = new Button("==");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				RuleTransGUI.main(null);
