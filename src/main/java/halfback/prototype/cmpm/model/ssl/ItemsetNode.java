@@ -2,7 +2,11 @@ package halfback.prototype.cmpm.model.ssl;
 
 import ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.Itemset;
 
-
+/**
+ * Implementation of a two dimensional linked list's node having an Itemset.
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ */
 public class ItemsetNode {
 
     /**

@@ -9,7 +9,12 @@ import java.util.concurrent.LinkedBlockingQueue;
 import halfback.prototype.cmpm.model.Chronicle;
 import halfback.prototype.cmpm.model.tce.PatternTracePair;
 
-
+/**
+ * Implementation of a Chronicle Builder. <br>
+ * A Chronicle Builder thread takes traces from a pool (built by TimeConstraintExtractor threads), builds a chronicle and puts it in another pool.
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ */
 public class ChronicleBuilder implements Runnable {
 
     private static BlockingQueue<PatternTracePair> _tracePool;

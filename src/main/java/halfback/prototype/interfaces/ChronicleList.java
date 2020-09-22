@@ -14,7 +14,7 @@ import javax.swing.event.RowSorterListener;
 
 import halfback.prototype.cmpm.controller.ChronicleSelectionListener;
 import halfback.prototype.cmpm.controller.ChronicleTableModel;
-
+import weka.core.Utils;
 
 public class ChronicleList extends JPanel {
 

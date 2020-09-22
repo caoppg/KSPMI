@@ -16,7 +16,18 @@ import halfback.prototype.cmpm.model.ssl.ItemsetNode;
 import halfback.prototype.cmpm.model.ssl.SubsequenceLattice;
 import halfback.prototype.cmpm.model.tce.TimeConstraintSet;
 
-
+/**
+ * Implementation of a time constraint extractor. <br>
+ * A time constraint extractor is a {@link java.lang.Runnable} that will be fed patterns found in
+ * the sequence database from a queue. It extracts a set of time constraints (a trace) for each
+ * pattern, for each sequence it is in.
+ * 
+ * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
+ * 
+ * @see halfback.prototype.cmpm.model.tce.TimeConstraintSet
+ * @see ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.patterns.Pattern
+ * @see ca.pfv.spmf.algorithms.sequentialpatterns.clasp_AGP.dataStructures.Sequence
+ */
 public class TimeConstraintExtractor implements Runnable {
 
     /**

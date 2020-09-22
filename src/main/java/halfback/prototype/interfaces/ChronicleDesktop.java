@@ -6,8 +6,6 @@ import javax.swing.JDesktopPane;
  * Sous-classe de JDesktopPane qui permet la gestion de plusieurs ChronicleView.
  * 
  * @author <a href="mailto:carlos.miranda_lopez@insa-rouen.fr">Carlos Miranda</a>
- * 
- * @author <a href="qiushi.cao@insa-rouen.fr">Qiushi Cao</a>
  */
 public class ChronicleDesktop extends JDesktopPane {
 
