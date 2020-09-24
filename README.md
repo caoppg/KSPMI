@@ -31,13 +31,20 @@ Some input data sets are in the "data" folder under the project root dictionary.
 The [SECOM data set](https://archive.ics.uci.edu/ml/datasets/SECOM) contains measurements of features of semi-conductor productions within a semi-conductor manufacturing process. In the SECOM data set, 1567 recordings and 590 attributes are collected, with each recording being characterized by a time stamp referring to the time that the data is recorded. Each recording is also associated with a label, which is either 1 or -1. The label of every recording explains the correctness of the event, with -1 corresponding to a non-failure event, and 1 refers to a failure. Timestamps are associated with all the records indicating the moment of each specific test point. In total, 104 pieces of records represent the failures of production. The data is stored in a raw text file, within which each line represents an individual example of recording with its timestamp. The features are separated by spaces.
 
 ## GUIs
-## The frequent chronicle mining GUI
+### The frequent chronicle mining GUI
 In the frequent chronicle mining interface, a set of extracted failure chronicles are displayed in the table within the figure below. There are three attributes associated with each failure chronicle: support, accuracy, and coverage.
 
-![Alt text](https://github.com/caoppg/KSPMI/blob/master/Screenshots/chroniclemininginterface.PNG?raw=true "Optional Title")
+![Alt text](https://github.com/caoppg/KSPMI/blob/master/Screenshots/chroniclemininginterface.PNG?raw=true "The frequent chronicle mining GUI")
 
-## The frequent chronicle mining GUI
-In the frequent chronicle mining interface, a set of extracted failure chronicles are displayed in the table within the figure below. There are three attributes associated with each failure chronicle: support, accuracy, and coverage.
+### The SWRL rules transformation and rule pruning GUI
+After the chronicle mining step, the extracted failure chronicles are transformed into a set of SWRL rules. The SWRL rules transformation and rule pruning GUI allows users to visualize the transformed rules and to select the best-quality rules by using a multi-objective optimization approach. Algorithm used for rule quality optimization: Fast Non-dominated Sorting, introduced in the paper [Non-dominated sorting procedure for pareto dominance ranking on multicore cpu and/or gpu](https://link.springer.com/article/10.1007/s10898-016-0468-7).
+
+![Alt text](https://github.com/caoppg/KSPMI/blob/master/Screenshots/rulegenerationinterface.PNG?raw=true "The SWRL rules transformation and rule pruning GUI")
+
+### The experience capitalization GUI
+After obtaining a set of best-quality rules, the experience capitalization phase aims to take as input to the program. The goal of integrating expert rules into the system is to improve the overall fitness of the whole rule base. To enable this step, an experience capitalization GUI is developed to allow users to interact with the expert rule base. Also, the system detects possible issues that may occur during this integration process, such as rule redundancy, conflict, and subsumption.
+
+![Alt text](https://github.com/caoppg/KSPMI/blob/master/Screenshots/ExperienceCapGUI.PNG?raw=true "The experience capitalization GUI")
 
 ## Built with
 
