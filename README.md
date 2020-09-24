@@ -30,6 +30,10 @@ Some input data sets are in the "data" folder under the project root dictionary.
 
 The [SECOM data set](https://archive.ics.uci.edu/ml/datasets/SECOM) contains measurements of features of semi-conductor productions within a semi-conductor manufacturing process. In the SECOM data set, 1567 recordings and 590 attributes are collected, with each recording being characterized by a time stamp referring to the time that the data is recorded. Each recording is also associated with a label, which is either 1 or -1. The label of every recording explains the correctness of the event, with -1 corresponding to a non-failure event, and 1 refers to a failure. Timestamps are associated with all the records indicating the moment of each specific test point. In total, 104 pieces of records represent the failures of production. The data is stored in a raw text file, within which each line represents an individual example of recording with its timestamp. The features are separated by spaces.
 
+## GUIs
+
+
+
 ## Built with
 
 * [Maven](https://maven.apache.org/) - Dependency Management
