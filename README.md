@@ -32,7 +32,7 @@ The [SECOM data set](https://archive.ics.uci.edu/ml/datasets/SECOM) contains mea
 
 ## GUIs
 
-
+![Alt text](https://github.com/caoppg/KSPMI/blob/master/Screenshots/chroniclemininginterface.PNG?raw=true "Optional Title")
 
 ## Built with
 
