@@ -1,6 +1,6 @@
 # KSPMI
 
-A Knowledge-based System for Predictive Maintenance in Industry 4.0 (KSPMI). The work is funded by the European Interreg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/). A demonstration video can be found at: https://sites.google.com/view/qiushi-phd-thesis/home.
+A Knowledge-based System for Predictive Maintenance in Industry 4.0 (KSPMI). The work is funded by the European Interreg HALFBACK Project (http://halfback.in.hs-furtwangen.de/home/). 
 
 ## Getting started
 
@@ -50,6 +50,9 @@ After obtaining a set of best-quality rules, the experience capitalization phase
 Failure prediction is achieved by using the [Drools rule engine](https://www.drools.org/) to perform ontology reasoning on the data that is populated in the domain ontologies. After prediction, a SQWRL query is created to retrieve the prediction results. The SQWRL language takes an antecedent of a SWRL rule and effectively treats it as a pattern specification for a query. To extract the results, a SQWRL query replaces a rule consequent with a retrieval specification.
 
 ![Alt text](https://github.com/caoppg/KSPMI/blob/master/Screenshots/predictwith8.PNG?raw=true "The ontology reasoning and failure prediction GUI")
+
+## Demonstration video
+A demonstration video of the software can be found at: https://sites.google.com/view/qiushi-phd-thesis/home.
 
 ## Built with
 
