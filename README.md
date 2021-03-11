@@ -66,7 +66,7 @@ A demonstration video of the software can be found at: https://sites.google.com/
 
 ## Author
 
-* **Qiushi Cao** - *Ph.D. student at INSA Rouen Normandie* 
+* **Qiushi Cao** 
 * Email: qiushi.cao09@gmail.com
 
 ## License
