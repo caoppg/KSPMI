@@ -52,7 +52,7 @@ Failure prediction is achieved by using the [Drools rule engine](https://www.dro
 ![Alt text](https://github.com/caoppg/KSPMI/blob/master/Screenshots/predictwith8.PNG?raw=true "The ontology reasoning and failure prediction GUI")
 
 ## Demonstration video
-A demonstration video of the software can be found at: https://sites.google.com/view/kspmiknowledge-basedsystem/home.
+A demonstration video of the software can be found at [this link](https://github.com/caoppg/KSPMI/blob/ec82e2143eed7f78ece43ec7ac01fcdb67fa6a22/KSPMI%20demo%20video.mp4).
 
 ## Built with
 
